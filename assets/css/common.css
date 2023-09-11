@@ -1,0 +1,9 @@
+.inner{margin: 0 auto;max-width:1500px; }
+.wrapper{min-width:1200px;  overflow: hidden;}
+.hidden{overflow: hidden;}
+
+.container{background-color: #eee; }
+
+.project{background-color: #141414; }
+
+.footer{background-color: #141414; }

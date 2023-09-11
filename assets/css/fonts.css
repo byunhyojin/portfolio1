@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'new';
+    src: url(../font/64791576b7201dae099bc123_PPNeueMontreal-Medium.woff2) format('woff2');
+    font-weight: 400;
+}
+@font-face{
+    font-family:'new';
+    src:url(../font/6479fcf9566bf20d1cf51e7a_PPNeueMontreal-SemiBold.woff2) format('woff2');
+    font-weight: 700;
+}
+
+

@@ -1,0 +1,110 @@
+/*main*/
+.container{min-width:980px}
+.main{position: relative;}
+.main video{width: 100%; height: 100vh;object-fit: cover; }
+.main .main-subject{
+   
+   
+    font-family: new;
+    font-weight: 700; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#EAEAEA;
+    font-size:200px;
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    }
+.main-subject p{}
+.wrap{
+  display: block; overflow: hidden;
+}
+.main .sub-subject{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:14px;
+    position: absolute;
+    z-index: 2;
+    bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Pretendard;}
+
+/*project*/
+.project .project-box{padding:150px 10px 10px 10px; }
+.project .porject-list{display: flex; }
+.project .myproject{
+    color: #eee;
+    letter-spacing: -.04em;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    font-family: Ftsystem, sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: .9;
+    border-bottom:1px solid #eee;
+    padding-bottom: 2px;}
+.project .porject-list .numb{
+    margin-left: 30px;
+    margin-top:130px ;
+    color: #eee;
+    font-size: 20px;
+    border:1px solid #eee;
+    border-radius:100%;
+    width: 20px;height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.project ul{display: flex;flex-direction: column;}
+.project ul .content{height: 420px; position: relative; margin-bottom: 300px;  display: flex; }
+
+/*numbers-part*/
+.project .numbers{
+    display: flex;
+    flex-direction: column;
+    top:-50px;
+    left:55%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    color:#EAEAEA;
+    z-index: 4;
+    position: absolute;
+   width: 50%;
+    height: 420px;
+    
+}
+.project .numbers:hover .skill-box{color:#afdce7;}
+.project .content .sub-t{display: flex;}
+.project .content .title{font-size: 100px; font-weight: 700; color:#EAEAEA; margin-bottom: 22px;}
+.project .content .numb{border:1px solid #EAEAEA; border-radius: 100%; width: 20px; height: 20px; font-weight: 700;}
+.project .numbers .skill-box{transition: all .5s ease-in-out;color:whitesmoke; font-size: 22px; margin-bottom: 15px}
+.project .numbers .desc{ color:#EAEAEA; font-family: Pretendard; margin-bottom: 40px;font-size: 18px;}
+.project .numbers .link-box{  display: flex; }
+.project .project{ margin-right:10px;font-size: 22px; color:white; border-radius: 30px; width: 200px;height: 30px; border:1.2px solid #EAEAEA; font-family: Pretendard;  transition: all .25s ease-out;}
+.project .code{ font-size: 22px; color:white; border-radius: 30px; width: 200px;height: 30px; border:1.2px solid #EAEAEA; font-family: Pretendard; transition: all .25s ease-out;}
+.project .code:hover{ background-color: #EAEAEA; color:black;}
+.project .project:hover{ background-color: #EAEAEA; color:black;}
+
+/*image-part*/
+.project .img-wrap{ margin-left: 30px; width:50%;height: 420px; position: relative;}  
+.project .img-wrap .hide-bg{position: absolute; bottom:0; left:0; width: 100%; height: 100%;background-color:#141414;; z-index:99;} 
+.project .img-wrap.woori{background: white; width:50%;height: 100%;;}
+.project .img-wrap.bstage p{ position: absolute; font-size: 43px; font-weight: 700; color:black; z-index: 1;top:20%; left:50px;}
+.project .img-wrap.bstage span{ position: absolute; font-size: 20px; font-weight: 700; width:70px;background-color:black; color:white;z-index: 1;bottom:33%; left:50px; border-radius: 30px; display: flex; align-items: center;justify-content: center;}
+.project .img-wrap.woori img{width:370px;height: 300px;position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.project .img-wrap img{width:100%; height:100%;}
+.project .img-wrap video{width:100%; height:100%; object-fit: cover;}
+
+
+

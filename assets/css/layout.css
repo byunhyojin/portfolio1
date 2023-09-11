@@ -1,0 +1,70 @@
+@import url(./common.css);
+@import url(./reset.css);
+@import './fonts.css';
+
+
+/*loading*/
+.loading{position: fixed; top: 0;left: 0;background: black;
+width: 100%; height: 100%; z-index: 99; }
+.loading .text:nth-child(3){font-size: 100px; }
+.loading .text{ opacity:0;color: white; position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);
+font-size: 60px; display: flex; align-items: center;justify-content: center;text-align: center; font-weight: 700;}
+
+/*header*/
+.header{position: fixed; top:0; left:0; z-index: 9; }
+.header .top-area{width: 100%; height: 50px; }
+
+.header .logo p{
+    width: 150px; height: 100px;  position: fixed; top: 0; left: 0;
+    color: #EAEAEA;
+    letter-spacing: -.04em;
+    margin-bottom: 200px;
+    font-size:30px;
+    font-weight: 700;
+    line-height: .9;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .top-area .contact a:hover{color:#EAEA}
+.header .top-area .contact{position: fixed;top:0; right:0;  width: 150px;height: 100px;
+display: flex; justify-content: center; align-items: center; }
+.header .top-area  .contact a{
+  transition: all 0.3s ease 0s;
+  color:#EAEAEA;
+  letter-spacing: -.04em;
+  font-weight: 700;
+  font-size:17px;
+  width: 124px;  height: 30px; display: flex;
+  justify-content: center; align-items: center;
+    }
+
+/*footer*/
+.footer{height: 600px;border-top:1px solid white;position: relative;;}
+.footer .goal:hover{opacity: 0.7;}
+.footer .goal{
+  transition: all .25s ease-out;
+  color:#e4e2e2;
+  position: absolute;
+  font-size: 33px;
+  font-weight: 700;
+  top: 80px;
+  left:50px;
+  font-family: Pretendard
+}
+.footer .contact{color:#EAEAEA; position: absolute; bottom:90px; right:90px; }
+.footer .contact h2{font-size:70px;margin-bottom: 10px;  border-bottom: 1px solid #EAEAEA; transition: all .25s ease-out;}
+.footer .contact h2:hover{opacity: 0.7;}
+.footer .phone{font-size:30px; margin-bottom: 10px; transition: all .25s ease-out;}
+.footer .phone:hover{opacity: 0.7}
+.footer .email{font-size:30px; margin-bottom: 10px; transition: all .25s ease-out;}
+.footer .email:hover{opacity: 0.7}
+.footer .git{display: flex;}
+.footer .git p{font-size: 25px; transition: all .25s ease-out;}
+.footer .git p:hover{opacity: 0.7}
+.footer .git img{width: 25px;height: 25px;margin-left: 5px; transition: all .25s ease-out; }
+.footer .git img:hover{opacity: 0.7}
+
+
+
