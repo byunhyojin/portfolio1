@@ -84,11 +84,11 @@
     height: 420px;
     
 }
-.project .numbers:hover .skill-box{color:#afdce7;}
+
 .project .content .sub-t{display: flex;}
 .project .content .title{font-size: 100px; font-weight: 700; color:#EAEAEA; margin-bottom: 22px;}
 .project .content .numb{border:1px solid #EAEAEA; border-radius: 100%; width: 20px; height: 20px; font-weight: 700;}
-.project .numbers .skill-box{transition: all .5s ease-in-out;color:whitesmoke; font-size: 22px; margin-bottom: 15px}
+.project .numbers .skill-box{transition: all .5s ease-in-out;color:#49fbfd; font-size: 22px; margin-bottom: 15px}
 .project .numbers .desc{ color:#EAEAEA; font-family: Pretendard; margin-bottom: 40px;font-size: 18px;}
 .project .numbers .link-box{  display: flex; }
 .project .project{ margin-right:10px;font-size: 22px; color:white; border-radius: 30px; width: 200px;height: 30px; border:1.2px solid #EAEAEA; font-family: Pretendard;  transition: all .25s ease-out;}
